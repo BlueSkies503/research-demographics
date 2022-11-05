@@ -1,0 +1,38 @@
+-- Create DB Table
+CREATE TABLE Cleaned_DB (
+ ind INT NOT NULL,
+ sex INT,
+ coded_location INT,
+ visit_outcome TEXT,
+ freq INT,
+ contact_count INT,
+ time_of_visit_from_initial_contact INT,
+ year_ INT,
+ age INT,
+ initial_contact_method_email INT,
+ initial_contact_method_emrap INT,
+ initial_contact_method_in_patient INT,
+ initial_contact_method_in_person INT,
+ initial_contact_method_other INT,
+ initial_contact_method_self_referred INT,
+ initial_contact_method_tabling INT,
+ initial_contact_method_wom_referral INT,
+ contact_None INT,
+ contact_email INT,
+ contact_inpatient INT,
+ contact_inperson INT,
+ contact_other INT,
+ contact_phone INT,
+ contact_text INT,
+ contact_unable_to_reach INT,
+ contact_vm INT,
+ visit_weekday_F INT,
+ visit_weekday_M INT,
+ visit_weekday_R INT,
+ visit_weekday_T INT,
+ visit_weekday_W INT,
+ bucket INT
+    
+);
+
+SELECT * FROM Cleaned_DB
