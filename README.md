@@ -18,6 +18,9 @@ The goal of this analysis is to determine if there is an identifiable pattern th
 This data is sourced from the research endeavor at UC Davis Health and has been completely de-identified. No locations or personal information (for staff or particpants) is included in the csv file. Each row has been assigned a random alphanumeric code that is not traceable to any actual data; all physical locations have been coded with numbers. Information regarding the variables is included in an additional csv file located in the Resources folder on github.  
 ![image](Resources/missing.jpg)
 
+### Dataset From AWS
+![image](Resources/coded.jpg)
+
 ### Communication Protocols:
 We have opted to collaborate closely on all aspects of the group project but each team member will take lead on a fundamental deliverable. Our plan is as follows:
  - Skye Stewart will lead the presentation componenent of the project. She intends to use Tableau to share the project visually.
