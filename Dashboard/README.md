@@ -9,4 +9,6 @@ The second graph shows number of participants by year. You can see a sensible dr
 
 The third graph shows number of participants broken down by sex.
 
-The fourth graph shows the visit outcome broken down by days of the week. 
+The fourth graph shows the visit outcome broken down by days of the week.
+
+The fifth graph shows the success and failure rates of different contact methods. 
