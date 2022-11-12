@@ -16,6 +16,10 @@ The goal of this analysis is to determine if there is an identifiable pattern th
 
 ### Data Source:
 This data is sourced from the research endeavor at UC Davis Health and has been completely de-identified. No locations or personal information (for staff or particpants) is included in the csv file. Each row has been assigned a random alphanumeric code that is not traceable to any actual data; all physical locations have been coded with numbers. Information regarding the variables is included in an additional csv file located in the Resources folder on github.  
+![image](Resources/missing.jpg)
+
+### Dataset From AWS(Cleaned Database):
+![image](Resources/coded.jpg)
 
 ### Communication Protocols:
 We have opted to collaborate closely on all aspects of the group project but each team member will take lead on a fundamental deliverable. Our plan is as follows:
@@ -25,7 +29,11 @@ We have opted to collaborate closely on all aspects of the group project but eac
  - Sedigh Etoumi will manage the database component and support connecting the raw data with the machine learning model.
 
 ### Machine Learning Model:
-Given that we have an outcome, we expect to use a supervised machine learning model. Further, the outcome is discrete (complete vs. incomplete) and as such, we will use a classification model. Logistic regression is used to solve classification problems. We will start with a Random Forest Classifier model. Our current working most recent ML code is in the running_with_ml_code.ipynb file.For our data we had a large amount of preprocessing to do. To achive this the main steps we took where to aggrigate all entries of the same person into one row carrying over all relavent information from the diffrent rows. Next we used diffrent fields to calculate things such as the persons age, how far out there visit was, how many times they visited and so on. These where done so we could get a better idea of who is showing up and if the way we communicate with them to see how that effects weather they will show up. Lastly we encoded the contact times into different time buckets to once again see if when people are contacted changes if they will show up. For our data we used the sklearn train test split useing stratified data because our rates of people showing up are realitivly low. We used the Random forrest model because it is resiliant to being over fit and was giving us the best results of models we have tested so far.
+Given that we have an outcome, we expect to use a supervised machine learning model. Further, the outcome is discrete (complete vs. incomplete) and as such, we will use a classification model. Logistic regression is used to solve classification problems. We will start with a Random Forest Classifier model. 
 
-
-
+## Please refer to running_with_ml_code.ipynb for the current working file. 
+### A summary of our process:
+- 1. We started with a significant amount of preprocessing. Mulitple rows existed for the same individual. As such, we aggregated multiple entries for the same individual into a single row containing all relevant information. 
+- 2. Next, we used existing column data to calculate new columns in an analyzeable format. This includes calculated a person's age, how far in the future a visit was scheudled, how many times a visit was scheduled, and so on. This allowed us to investigate who was showing up for a visit and to determine if communication mode and frequency impacts whether an individiual will show up for the scheduled visit. 
+- 3. Sklearn train test split was used to stratify data because our show rates (i.e., completed visit) is relatively low. 
+- 4. The Random Forest Model was selected because we had a defined outcome that was discrete. Additionally, Random Forest Classifer models are resilient to being overfit.  
