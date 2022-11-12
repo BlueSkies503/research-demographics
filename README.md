@@ -35,5 +35,10 @@ Given that we have an outcome, we expect to use a supervised machine learning mo
 ### A summary of our process:
 - 1. We started with a significant amount of preprocessing. Mulitple rows existed for the same individual. As such, we aggregated multiple entries for the same individual into a single row containing all relevant information. 
 - 2. Next, we used existing column data to calculate new columns in an analyzeable format. This includes calculated a person's age, how far in the future a visit was scheudled, how many times a visit was scheduled, and so on. This allowed us to investigate who was showing up for a visit and to determine if communication mode and frequency impacts whether an individiual will show up for the scheduled visit. 
-- 3. Sklearn train test split was used to stratify data because our show rates (i.e., completed visit) is relatively low. 
-- 4. The Random Forest Model was selected because we had a defined outcome that was discrete. Additionally, Random Forest Classifer models are resilient to being overfit.  
+- 3. Sklearn train test split was used and we stratifed our data. 
+- 4. The Random Forest Model was selected because we had a defined outcome that was discrete. Additionally, Random Forest Classifer models are resilient to being overfit. 
+- 5. We tested using an adaboost model but found that the random forest model preformed sligtly better then the adaboost model when tinkering and optimizing the models.
+- 6. Ultimately our model had a confidence score of 68%, a precision score of 77% and a recall of 79% which for our uses are quite good.
+          
+### Imbalanced calssification report
+![image](Resources/imbalanced_classification_report.PNG)
