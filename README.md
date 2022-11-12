@@ -39,4 +39,6 @@ Given that we have an outcome, we expect to use a supervised machine learning mo
 - 4. The Random Forest Model was selected because we had a defined outcome that was discrete. Additionally, Random Forest Classifer models are resilient to being overfit. 
 - 5. We tested using an adaboost model but found that the random forest model preformed sligtly better then the adaboost model when tinkering and optimizing the models.
 -6. Ultimatly Our model had a confidence score of 68%, a prestion score of 77% and a recall of 79%
+          
+### Imbalanced calssification report
 ![image](Resources/imbalanced_classification_report.PNG)
