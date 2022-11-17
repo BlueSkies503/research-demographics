@@ -8,3 +8,7 @@ The first Tableau graph shows you how many people of each age have completed a s
 The second graph shows number of participants by year. You can see a sensible drop off in the year 2020.
 
 The third graph shows number of participants broken down by sex.
+
+The fourth graph shows the visit outcome broken down by days of the week.
+
+The fifth graph shows the success and failure rates of different contact methods. 
