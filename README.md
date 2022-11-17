@@ -55,6 +55,9 @@ The fifth graph shows the success and failure rates of different contact methods
 - 4. The Random Forest Model was selected because we had a defined outcome that was discrete. Additionally, Random Forest Classifer models are resilient to being overfit. 
 - 5. We tested using an adaboost model but found that the random forest model preformed slightly better.
 - 6. Ultimately our model had a confidence score of 68%, a precision score of 77% and a recall of 79%. 
+
+### Takeaways from our Analysis:
+The Random Forest Model resulted we ran had a 68% accuracy rate. This means that 68% of the time our model correctly predicted who would complete a visit and who would not. While this accuracy rate is not sufficient for decision-making, our output did provide useful insight into the variables that contributed most to this accuracy rate, notably age and time in between initial contact and follow-up contacts ranked highly. Age was not surprising as visits are only available during business hours - time at which those who work regular hours may not be able to make and that retired individuals could more easily schedule. The model was more successful in predicted completed visits (82%) vs. incompletes (66%). As completed visits is the goal, 82% is a strong rate but given the overall model's accuracy rate, more refinement or expansion of this dataset is needed before implementing.
           
 ### Imbalanced calssification report
 ![image](Resources/imbalanced_classification_report.PNG)
