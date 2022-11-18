@@ -19,4 +19,6 @@ The fourth graph shows the visit outcome broken down by days of the week.
 
 ![days_of_the_week](https://user-images.githubusercontent.com/35434608/201314320-f5ff236b-dc2d-437b-9004-567a01a2560b.png)
 
-The fifth graph shows the success and failure rates of different contact methods. 
+The fifth graph shows the success and failure rates of different contact methods.
+
+![contact_methods](https://user-images.githubusercontent.com/35434608/201314363-de3e0c81-140f-4ac3-91df-a6a54cfb8086.png)
