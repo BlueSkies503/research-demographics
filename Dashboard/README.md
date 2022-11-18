@@ -17,6 +17,6 @@ The third graph shows number of participants broken down by sex.
 
 The fourth graph shows the visit outcome broken down by days of the week.
 
-
+![days_of_the_week](https://user-images.githubusercontent.com/35434608/201314320-f5ff236b-dc2d-437b-9004-567a01a2560b.png)
 
 The fifth graph shows the success and failure rates of different contact methods. 
