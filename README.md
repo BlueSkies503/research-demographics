@@ -21,9 +21,6 @@ This data is sourced from the research endeavor at UC Davis Health and has been 
 ### Dataset From AWS(Cleaned Database):
 ![image](Resources/coded.jpg)
 
-### Machine Learning Model:
-Given that we have an outcome, we expect to use a supervised machine learning model. Further, the outcome is discrete (complete vs. incomplete) and as such, we will use a classification model. Logistic regression is used to solve classification problems. We will start with a Random Forest Classifier model. 
-
 ### Tableau Dashboard:
 The project overview will be shown and explained through Google Slides [here.](https://docs.google.com/presentation/d/1137s3_O7ktF4cMPk-cHCNadZev04o0CW/edit#slide=id.p101)
 Technical charts and graphs will be created and shared through Tableau.
