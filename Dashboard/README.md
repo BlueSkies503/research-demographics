@@ -9,7 +9,7 @@ The first Tableau graph shows you how many people of each age have completed a s
 
 The second graph shows number of participants by year. You can see a sensible drop off in the year 2020.
 
-
+![participants_by_year](https://user-images.githubusercontent.com/35434608/201314229-18637b69-5bc2-4227-a4ac-983d5b1fe6ac.png)
 
 The third graph shows number of participants broken down by sex.
 
