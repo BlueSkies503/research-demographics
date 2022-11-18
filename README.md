@@ -47,17 +47,19 @@ The fifth graph shows the success and failure rates of different contact methods
 
 ![contact_methods](https://user-images.githubusercontent.com/35434608/201314363-de3e0c81-140f-4ac3-91df-a6a54cfb8086.png)
 
+
 ## Please refer to running_with_ml_code.ipynb for the current working file. 
+
+### Machine Learning Model:
+Given that we have an outcome, we expect to use a supervised machine learning model. Further, the outcome is discrete (complete vs. incomplete) and as such, we will use a classification model. Logistic regression is used to solve classification problems. We will start with a Random Forest Classifier model. 
+
 ### A summary of our process:
 - 1. We started with a significant amount of preprocessing. Mulitple rows existed for the same individual. As such, we aggregated multiple entries for the same individual into a single row containing all relevant information. 
 - 2. Next, we used existing column data to calculate new columns in an analyzeable format. This includes calculating the following: a person's age, how far into the future a visit was scheduled, how many times a visit was scheduled, and how many times a person was contacted. This allowed us to investigate who completed a visit and to look at whether mode or frequency impacts show-rate for a visit. 
 - 3. Sklearn train test split was used to stratify our data. 
 - 4. The Random Forest Model was selected because we had a defined outcome that was discrete. Additionally, Random Forest Classifer models are resilient to being overfit. 
-- 5. We tested using an adaboost model but found that the random forest model preformed slightly better.
-- 6. Ultimately our model had a confidence score of 68%, a precision score of 77% and a recall of 79%. 
-
-### Takeaways from our Analysis:
-The Random Forest Model resulted we ran had a 68% accuracy rate. This means that 68% of the time our model correctly predicted who would complete a visit and who would not. While this accuracy rate is not sufficient for decision-making, our output did provide useful insight into the variables that contributed most to this accuracy rate, notably age and time in between initial contact and follow-up contacts ranked highly. Age was not surprising as visits are only available during business hours - time at which those who work regular hours may not be able to make and that retired individuals could more easily schedule. The model was more successful in predicted completed visits (82%) vs. incompletes (66%). As completed visits is the goal, 82% is a strong rate but given the overall model's accuracy rate, more refinement or expansion of this dataset is needed before implementing.
+- 5. We tested using an adaboost model but found that the random forest model preformed sligtly better by comparison.
+- 6. Ultimately our model had a confidence score of 68%, a precision score of 77% and a recall of 79% which for our uses was sufficient. Our ability to predict successful visits was much higher than our ability to predict for failures. Improving our ability to predict successfully completed visits is the objective of our analysis.
           
 ### Imbalanced calssification report
 ![image](Resources/imbalanced_classification_report.PNG)
