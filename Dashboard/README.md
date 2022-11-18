@@ -5,10 +5,18 @@ Technical charts and graphs will be created and shared through Tableau.
 
 The first Tableau graph shows you how many people of each age have completed a survey, and you can filter for a specific age range. This graph is now grouped in bins of ten years.
 
+![Age_by_outcome_bins](https://user-images.githubusercontent.com/35434608/201314169-ed785eae-0e89-45cb-b090-049d8fff6194.png)
+
 The second graph shows number of participants by year. You can see a sensible drop off in the year 2020.
+
+
 
 The third graph shows number of participants broken down by sex.
 
+
+
 The fourth graph shows the visit outcome broken down by days of the week.
+
+
 
 The fifth graph shows the success and failure rates of different contact methods. 
