@@ -21,6 +21,9 @@ This data is sourced from the research endeavor at UC Davis Health and has been 
 ### Dataset From AWS(Cleaned Database):
 ![image](Resources/coded.jpg)
 
+### Data Base and ERD: 
+![image](Resources/Cleaned_db.png)
+
 ### Machine Learning Model:
 Given that we have an outcome, we expect to use a supervised machine learning model. Further, the outcome is discrete (complete vs. incomplete) and as such, we will use a classification model. Logistic regression is used to solve classification problems. We will start with a Random Forest Classifier model. 
 
