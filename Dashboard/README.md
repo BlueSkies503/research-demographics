@@ -13,7 +13,7 @@ The second graph shows number of participants by year. You can see a sensible dr
 
 The third graph shows number of participants broken down by sex.
 
-
+![sex_of_participants](https://user-images.githubusercontent.com/35434608/201314265-7125158d-dd89-4216-aa41-cb9af448cb7a.png)
 
 The fourth graph shows the visit outcome broken down by days of the week.
 
